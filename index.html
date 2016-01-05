@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1> This is a guessing game!</h1>
+    <script>
+    var user = prompt('Who is this?');
+    alert('Hello, ' + user );
+    console.log('The user\'s name is'  + user);
+    var answer1 = prompt (user + ' Is Ethan 900 lbs? Please answer Y or N.')
+    console.log('the user answered question1: ' + answer1);
+    if(answer1 === 'N') {
+      alert('True! He only weighs 850.');
+    }else {
+      alert('Nope, he\'s not that big');
+    }
+    var answer2 = prompt (user + ' Is Ethan from Croatia? Please answer Y or N.')
+    console.log('the user answered question2: ' + answer2);
+    if(answer2 === 'N') {
+      alert('You\'re right, he\'s never even been there!');
+    }else {
+      alert('Wrong! But what a lovely place.');
+    }
+    var answer3 = prompt (user + ', does Ethan LOVE tacos? Please respond Y or N. The answer is pretty obvious though.');
+    console.log('the user answered question3:' + answer3);
+    if(answer3 === 'Y') {
+      alert('You better believe he loves tacos!');
+    }else {
+      alert('Who doesn\'t love tacos? A person I could never be friends with is who.');
+    }
+
+</script>
+  </body>
+</html>
