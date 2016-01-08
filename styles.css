@@ -1,0 +1,27 @@
+/*This is a stylesheet for ethan's guessing game*/
+body {
+  background-color: #a1ccce;
+}
+h1 {
+  color: #3e70ae;
+  font-family: Verdana;
+}
+h2 {
+  font-family: Verdana;
+}
+p {
+  font-family: Verdana;
+}
+.answerOne {
+  font-family: Impact;
+  color: #547190;
+}
+.right {
+  font-family: Verdana;
+  font-size: 40px;
+  color: #07cb07;
+}
+.wrong {
+  font-family: Impact;
+  color: #f31414;
+}
