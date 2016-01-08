@@ -16,3 +16,12 @@ p {
   font-family: Impact;
   color: #547190;
 }
+.right {
+  font-family: Verdana;
+  font-size: 40px;
+  color: #07cb07;
+}
+.wrong {
+  font-family: Impact;
+  color: #f31414;
+}
