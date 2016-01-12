@@ -62,16 +62,29 @@ function qThree() {
 qThree();
 
 function qFour() {
-  var answer4 = prompt(user + ', How many years has Ethan lived in Seattle?');
+  var answer4 = prompt (user + ', does Ethan LOVE bikes? Please respond Y or N.');
   console.log('the user answered question4:' + answer4);
-  while(answer4 != 12) {
-  //alert('That is incorrect!');
-  res5.textContent = 'That is incorrect!';
-  } counter++
-  //alert('thats right');
-  res5.textContent = 'That\'s right!';
-  //alert('You got ' + counter + ' answers\'s correct');
-  res5.textContent = 'You got ' + counter + ' answers\'s correct';
+  if(answer4.toUpperCase() === 'Y' || answer3 === 'YES' || answer3 === 'y' || answer3 === 'yes') {
+  //alert('You better believe he loves tacos!');
+  res5.textContent = 'You better believe he loves bikes!';
+  counter ++
+  } else {
+  //alert('Who doesn\'t love tacos? A person I could never be friends with is who.');
+  res5.textContent = 'Who doesn\'t love bikes? Future Transportation.';
+  }
 }
 
 qFour();
+//
+// function qFive() {
+//   var answer5 = prompt(user + ', Has Ethan lived in Seattle for 12 years?');
+//   console.log('the user answered question4:' + answer4);
+//   while(answer4 != 12) {
+//   //alert('That is incorrect!');
+//   res5.textContent = 'That is incorrect!';
+//   } counter++
+//   //alert('thats right');
+//   res5.textContent = 'That\'s right!';
+//   //alert('You got ' + counter + ' answers\'s correct');
+//   //res5.textContent = 'You got ' + counter + ' answers\'s correct';
+// }
